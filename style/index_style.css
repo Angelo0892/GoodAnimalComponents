@@ -1,0 +1,105 @@
+body{
+    background-color: #FFD1DC;
+    height: 1000px;
+}
+
+.section_main{
+    background-color: #F6A5C0;
+}
+
+/*
+*   Relacionado con la barra de navegación
+*/
+
+.navbar_main .nav_opcion{
+    height:20px;
+    text-align:center;
+}
+
+.navbar_main .nav_opcion li{
+    display:inline-block;
+    margin-right:10px;
+}
+
+.nav_title{
+    text-align: center;
+}
+
+.button_aside{
+    border: none;
+    background-color: #F6A5C0;
+}
+
+/*
+*   Relacionado con el
+*/
+.carousel_control{
+  background-color: #FFD1DC;  
+}
+
+.carousel_container{
+    width: 300px;
+}
+
+.carousel_container {
+    height: 400px;
+    width: 100px;
+}
+
+@media (600px >= width) {
+    .carousel_container {
+        height: 250px;
+        width: 100px;
+    }
+}
+
+
+
+.carousel_container img{
+    height: auto;
+    width: 100px;
+    object-fit: cover;
+}
+
+/*
+*   Cartas después del texto
+*/
+
+.sections_cards{
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.sections_noved{
+    background-color: #FFC0CB;
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_space{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #F6A5C0;
+}
+
+@media (600px <= width) {
+    .card_space{
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+.card_novelty{
+    display: flex;
+    justify-content: center;
+}
+
+/*
+*   footer
+*/
+.footer_main{
+    background-color: #F6A5C0;
+    height: 100px;
+}
